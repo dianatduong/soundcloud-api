@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+body {
+      background-color: #f05024;
+      text-align: center;
+      margin: 40px;
+}
+
+.music,
+#player {
+    margin-top: 50px;
+}
+
+#query, #button {
+    height: 40px;
+    border-radius: 5px;
+}
+
+#query {
+    margin-right: 2px;
+    padding: 0 20px;
+}
+
+#button {
+    width: 25%;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+
+@media only screen and (min-width: 320px) {
+    #query {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    body {
+        color: green;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        color: red;
+    }
+
+    #query {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        color: blue;
+    }
+
+    #player {
+         padding: 0 150px;
+    }
+
+    #button {
+        width: 10%;
+    }
+}
